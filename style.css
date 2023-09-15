@@ -10,5 +10,21 @@ nav{
     padding: 20px 60px;
     background-color: royalblue;
     color: white;
-    
+
+}
+form{
+    width: 40%;
+    min-width: 340px;
+    margin:30px auto;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+}
+form > *{
+    padding: 10px;
+    border-radius: 5px;
+    width: 80%;
 }
